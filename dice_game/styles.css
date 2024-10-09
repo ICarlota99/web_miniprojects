@@ -1,0 +1,24 @@
+body{
+    background-color: #FF6666;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 600%;
+    font-weight: 500;
+}
+button{
+    margin: 3%;
+    padding: 2%;
+}
+
+.player{
+    display: inline-block;
+    padding: 3% 7%;
+}
+
+.dice{
+    padding: 0 4%;
+}
+
