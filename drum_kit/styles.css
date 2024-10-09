@@ -1,0 +1,46 @@
+body{
+    background-color: #ffc3d2;
+    color: black;
+    text-align: center;
+}
+.drum{
+    border: 0.5rem, solid, #720101;
+    color: black;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0 2% 5%;
+    padding: 3%;
+    text-shadow: 3px 0 white;
+}
+
+#title{
+    font-size: 7rem;
+    font-weight: 500;
+    text-shadow: 3px 0 white;
+}
+
+.set{
+    margin-top: 10rem;
+}
+
+.w{
+    background: url("images/tom_1.jpg");
+}
+.a{
+    background: url("images/tom_2.jpg");
+}
+.s{
+    background: url("images/tom_3.jpg");
+}
+.d{
+    background: url("images/tom_4.jpg");
+}
+.j{
+    background: url("images/bass.jpg");
+}
+.k{
+    background: url("images/snare.jpg");
+}
+.l{
+    background: url("images/clash.jpg");
+}
