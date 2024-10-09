@@ -17,6 +17,7 @@ for (var i = 0; i < drumCount; i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
         var audio = new Audio(drumSound[this.innerHTML]);
         audio.play();
+        buttonAnimation(this.innerHTML);
     })
 }
 
@@ -24,4 +25,14 @@ for (var i = 0; i < drumCount; i++){
 document.addEventListener("keypress", function(event){
     var audio = new Audio(drumSound[event.key]);
         audio.play();
+    buttonAnimation(event.key);
 })
+
+function buttonAnimation(pressedButton){
+    var currentButton = document.querySelector("." + pressedButton);
+    currentButton.classList.add("pressed");
+
+    setTimeout(function(){
+        currentButton.classList.remove("pressed");
+    }, 100);
+}

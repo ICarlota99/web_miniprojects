@@ -44,3 +44,8 @@ body{
 .l{
     background: url("images/clash.jpg");
 }
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #dd805b;
+    opacity: 0.5;
+}
